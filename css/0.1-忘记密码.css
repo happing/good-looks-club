@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 750px;
+}
+/* 顶部标签 */
+.nav>div:first-child{
+    height: 37px;
+    background-color: #272727;
+}
+.nav>div:last-child{
+    height: 99px;
+    background-color: #f8f8f8;
+}
+.nav>div:last-child i{
+    display: inline-block;
+    width: 102px;
+    height: 99px;
+    background: url(../images/机构列表/back.png) no-repeat 25px;
+}
+.nav>div:last-child span{
+    display: inline-block;
+    width: 162px;
+    line-height: 99px;
+    font-size: 37px;
+    color: #343434;
+    margin-right: 302px;
+    float: right;
+}
+/* 内容样式 */
+.content{
+    height: 1200px;
+}
+.content .contentPhone{
+    height: 77px;
+    margin-top: 35px;
+}
+.content .contentPhone span ,.content .contentAuth>span:first-child{
+    display: inline-block;
+    width: 150px;
+    line-height: 77px;
+    color: #333333;
+    font-size: 26px;
+    margin-left: 16px;
+}
+.content .contentPhone input,.content .contentAuth input{
+    height: 73px; 
+    border:2px solid #ededed;
+    border-radius: 5px;  
+}
+.content .contentPhone input{
+    width:547px ;   
+}
+.content .contentAuth{
+    margin-top: 44px;
+}
+.content .contentAuth input{
+    width: 342px;
+}
+.content .contentAuth span:last-child{
+    display: inline-block;
+    width:188px;
+    background-color:  #f57127;
+    border-radius: 5px;
+    font-size: 30px;
+    color:#ffffff;
+    text-align: center;
+    line-height: 75px;
+    margin-top: 5px;
+    float: right;
+    margin-right: 30px;
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ a{
+    text-decoration: none;
+} 
+span{
+    display: inline-block;
+}
+.nav{
+    width: 750px;
+    height: 1280px; 
+    background: url(../images/00-注册/banner.jpg) no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.nav>div:first-child{
+    width: 575px;
+    height: 575px;
+    border-radius: 50%;
+    background-color: rgba(107,107,107,0.5);
+    margin-top: 522px;
+    margin-left: 92px;
+    position: relative;
+    z-index: 1000;
+    /* float: left; */
+}
+.nav>div:first-child>i{
+    display: inline-block;
+    width:295px ;
+    height: 102px ;
+    background: url(../images/00-注册/logo.png) no-repeat;
+    margin-top: 55px;
+    margin-left: 132px;
+}
+.nav>div:first-child input{
+    width:380px;
+    height: 79px;
+    border:4px solid #cccccc;
+    border-radius: 5px;
+    font-size: 28px;
+    color: #cccccc;
+    margin-top:28px;
+    margin-left: 94px;
+    background-color: rgba(107, 107, 107,0);
+}
+ .nav form a:nth-child(5) span{
+    width: 190px;
+    height: 78px;
+    text-align: center;
+    line-height: 78px;
+    background-color: #ff732b;  
+    margin-top: 52px;
+    margin-left: 190px;
+    border-radius: 5px;
+     color: #fffeff;
+    font-size: 28px;
+    font-weight: bolder;
+    border:0; 
+    cursor: pointer;
+}
+.nav form a:nth-child(7) span,.nav form a:nth-child(8) span{
+    width: 115px;
+    height: 35px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #e2e0e1;
+    background-color: rgba(107, 107, 107,0);
+    border:0;
+    cursor: pointer;
+}
+
+.nav form a:nth-child(7) span{
+   margin-top:162px;
+   margin-left: 102px;   
+}
+.nav form a:nth-child(8) span{
+    margin-left: 150px;
+} 
+.nav>div:nth-child(2){
+    width: 646px;
+    height: 646px;
+    border:2px dashed #f5752e;
+    border-radius: 50%;
+    position: absolute;
+    top:490px;
+    left:42px; 
+}
+.nav>div:nth-child(2) div{
+    width: 655px;
+    height:655px;
+    border:2px dashed #f5752e;
+    border-radius: 50%;
+    position: relative;
+    top: -8px;
+    left:12px ;
+}
+.nav>div:nth-child(3),.nav>div:nth-child(4){
+    display: inline-block;
+    width:16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #f57129;
+}
+.nav>div:nth-child(3){
+    position: relative;
+    top:500px ;
+    left:-410px ;
+}
+.nav>div:nth-child(4){
+    position: relative;
+    top:1130px;
+    left:-350px;
+}

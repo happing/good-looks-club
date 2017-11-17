@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 750px;
+    margin: 0 auto;
+}
+/* 顶部标签 */
+.nav>div:first-child{
+    height: 37px;
+    background-color: #272727;
+}
+.nav>div:last-child{
+    height: 99px;
+    background-color: #f8f8f8;
+}
+.nav>div:last-child i{
+    display: inline-block;
+    width: 102px;
+    height: 99px;
+    background: url(../images/机构列表/back.png) no-repeat 25px;
+}
+.nav>div:last-child span{
+    display: inline-block;
+    width: 162px;
+    line-height: 99px;
+    font-size: 37px;
+    color: #343434;
+    margin-right: 302px;
+    float: right;
+}
+/*内容部分form*/
+.content{
+    height: 1200px;
+}
+.content form{
+    height: 202px;
+    margin-top: 32px;
+}
+.content form input{
+    width: 550px;
+    height:78px ;
+    border:2px solid #ededed;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.content form span{
+    display: inline-block;
+    width:132px; ;
+    line-height: 78px;
+    text-align: center;
+    margin:0 36px 0 17px ;
+    font-size: 27px;
+}
+.content form button{
+    width:190px; ;
+    height:78px; ;
+    line-height: 78px;
+    text-align: center;
+    margin:240px 0 0 288px;
+    background-color:#f57129 ;
+    font-size: 30px;
+    color:#fddfd5 ;
+    font-weight: bolder;
+    border-radius: 5px;
+    border:0;
+}

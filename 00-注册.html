@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <script  src="jquery-2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/00-注册.css">
+    <script>
+        $(function(){
+            $("#sp1").on("click",function(){
+                $("#sp1").addClass("sp1_1");
+            });
+        })
+    </script>
+</head>
+<body>
+    <div class="nav">
+       <div>
+           <div></div>
+           <div>
+                <form action="#" method="post">
+                    <input type="text" name="phone" placeholder=" 手机号:"><br>
+                    <input type="text" name="" placeholder=" 验证码:"><br>
+                    <input type="password" name="" placeholder=" 设置密码:"><br>
+                    <input type="text" name="" placeholder=" 确认密码:"><br>
+                    <input type="text" name="" placeholder=" 个人:"><br>
+                    <div class="span">
+                            <span id="sp1"></span>
+                            <p>我以阅读并同意网站用户协议</p>
+                    </div>     
+                            <a href="">
+                                <button>注册</button>
+                            </a><br>
+                            <a href="index.html" style="margin-left: 150px;color:#fff;font-size: 20px" target="_blank">
+                                登录账号
+                            </a>
+                            <a href="0.1-重置密码.html" style="margin-left: 200px;color:#fff;font-size: 20px"" target="_blank">
+                               修改密码
+                            </a>       
+                </form>
+            </div>
+       </div>
+       <div>
+           <div></div>
+       </div>
+      <div>获取验证码
+          <img src="images/00-注册/erweima.png" alt=""></div> 
+      <div></div>
+      <div></div>
+    </div>
+</body>
+</html>

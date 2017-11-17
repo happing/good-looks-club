@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 750px;
+    margin: 0 auto;
+}
+.header{
+    height: 136px;
+    background-color: #282828;
+}
+.nav{
+        height:50px;
+        float: left;
+        overflow: hidden;
+        margin-top: 63px;
+        margin-left: 20px;
+}
+.nav i{
+    display: inline-block;
+    width:44px;
+    height: 50px;
+}
+.nav>i:first-child{
+    background: url(../images/机构列表/back.png) no-repeat;
+    float: left;
+}
+.nav>i:last-child{
+    background: url(../images/index_11.png) no-repeat;
+    margin-left: 20px;
+    float: left;
+}
+.nav .navMiddle{
+    width: 550px;
+    height: 50px;
+    margin-left:55px;
+    float: left;
+    overflow: hidden;
+}
+.nav .navMiddle i{
+    width:145px;
+    height: 50px;
+    background: url(../images/index_09.png) no-repeat;
+    background-color: #4a4a4a;
+    float: left;
+}
+.nav .navMiddle input{
+    width: 400px;
+    height: 50px;
+    border: none;
+    float: left;
+    background-color: #4a4a4a;
+    color: #999999;
+    font-size: 27px;
+}
+.list{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #282828;      
+}
+.list li{
+    list-style: none;
+    font-size: 28px;
+    line-height: 70px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.product{
+    height: 292px;
+    border-bottom:5px solid #efefef;
+}
+.product i{
+    display: inline-block;
+    width:200px ;
+    height: 246px;
+    background: url(../images/机构列表/6_07.png)  no-repeat;
+    margin: 23px 0 0 23px;
+}
+.product div:last-child{
+    width: 510px;
+    height:292px;
+    margin-left: 15px;
+    float: right;  
+}
+.product div:last-child  a{
+    display: inline-block;
+    width: 525px;   
+      
+} 
+.product div:last-child >a:first-child{
+    margin-top: 38px;
+    color:#343434 ;
+    font-size:25px ; 
+}
+.product div:last-child>a:nth-child(2){
+    margin-top: 38px;
+    color:#343434;
+    font-size:25px; 
+}
+.product div:last-child>a:nth-child(3){
+    margin-top: 24px;
+    font-size:25px; 
+    color: #ccc;    
+}
+.product div:last-child>a:last-child{ 
+    margin-top: 24px;
+    font-size: 22px;
+    color:#ff732b;
+    overflow: hidden;
+}
+div:last-child>a:last-child>span:first-child{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url(../images/机构列表/6_10.png) no-repeat;
+    float: left; 
+}
+div:last-child>a:last-child>span:last-child{
+    float: left;
+    line-height: 34px;
+}
+footer{
+    height: 112px;
+    background-color: #272727;
+}
+
+footer>a{
+    float: left;
+    margin:16px 40px 0 40px;
+}
+.piao{
+    position: absolute;
+    left: 880px;
+    display:none; 
+}
+
+.piao li{
+    list-style: none;
+    height: 80px;
+    width: 252px;
+    background-color: #efefef;
+    border-bottom: 1px solid #b4b4b4;
+}
+.piao li a{
+    display: inline-block;
+    height: 80px;
+    width: 252px;
+    line-height: 80px;
+    text-align: center;
+    color: #323232;
+    font-size: 24px;
+}
+.piao li .current{
+    color: red;
+}
+
